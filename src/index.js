@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BlendinProvider } from 'blendin-react';
+import blendinConfig from './blendin.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BlendinProvider config={blendinConfig}>
+      <App />
+    </BlendinProvider>
   </React.StrictMode>
 );
 

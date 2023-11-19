@@ -1,0 +1,17 @@
+{
+  "projectId": "21bfa0bb-c13d-4c11-9b47-8f331658f56d",
+  "apiToken": "c0a7cc27-fa8a-4674-af42-023e58e8bff5",
+  "sourceLocale": "en",
+  "defaultLocale": "en",
+  "targetLocales": [
+    "ar",
+    "fr",
+    "de"
+  ],
+  "interpolationType": "inline",
+  "sourceStringsPath": "",
+  "localesSourceType": "static",
+  "localesPath": "locales/",
+  "baseBranchName": "main",
+  "prBranchName": "translations"
+}

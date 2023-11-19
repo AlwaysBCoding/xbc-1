@@ -1,0 +1,28 @@
+name: Blendin Upload Strings
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync-strings-to-blendin:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+
+      - name: Initialize Environment
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js v18
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Sync Strings to blendin
+        uses: ai18n-xyz/github-action@0.0.22
+        with:
+          source_path: './src/'
+          config_file_path: './src/blendin.json'

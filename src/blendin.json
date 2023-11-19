@@ -1,12 +1,12 @@
 {
-  "projectId": "21bfa0bb-c13d-4c11-9b47-8f331658f56d",
-  "apiToken": "c0a7cc27-fa8a-4674-af42-023e58e8bff5",
+  "projectId": "e2084b38-0b41-4966-bc4e-bc35d5edac67",
+  "apiToken": "1fc393db-3fcf-4c19-9ed3-1a259c3cacad",
   "sourceLocale": "en",
   "defaultLocale": "en",
   "targetLocales": [
-    "ar",
     "fr",
-    "de"
+    "de",
+    "ar"
   ],
   "interpolationType": "inline",
   "sourceStringsPath": "",

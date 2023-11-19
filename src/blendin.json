@@ -4,9 +4,11 @@
   "sourceLocale": "en",
   "defaultLocale": "en",
   "targetLocales": [
-    "fr",
+    "ar",
     "de",
-    "ar"
+    "es",
+    "fr",
+    "pt"
   ],
   "interpolationType": "inline",
   "sourceStringsPath": "",
